@@ -54,33 +54,31 @@
     <div class="col-12 d-flex align-items-center pl-3 pr-3">
 
         <div class="col-12 col-md d-flex px-0 float-start flex-wrap">
+            <!-- <input type="text" class="form-select width218" value="uCertify"> -->
+            <div class="form-select width218 border rounded d-flex align-items-center ">
+                <span class="ml-3 mr-5">uCertify</span>
+                <span class="font12 font-weight-bold ml10">x</span>
+                <span class="icomoon-arrow-down-2"></span>
+            </div>
 
-            <select class="form-select width218 mr-2">
-                <option selected="">uCertify</option>
-                <option value="1">Option one</option>
-                <option value="2">Option two</option>
-                <option value="3">Option three</option>
-                <option value="4">Option four</option>
-                <option value="5">Option five</option>
-            </select>
-            <div class="float-start mt-3 mt-md-0 scroll" >
-                <div class="btn-group btn-light" >
+            <div class="float-start mt-3 mt-md-0 scroll ml-2">
+                <div class="btn-group btn-light">
                     <a href="#" class="outline1 px-2 btn btn-light active">
-                        <span class="icomoon-roster-sm"></span>
+                        <span class="icomoon-roster-sm position-relative top3"></span>
                         <span class="d-none d-xl-inline-block">Roster</span>
                     </a>
                     <a href="#" class="outline1 px-2 btn btn-light course_status">
-                        <span class="align-sub s3 icomoon-24px-project-management top3"></span>
-                        <span class="d-none d-xl-inline-block form-select">Manage</span>
+                        <span class="align-sub s3 icomoon-24px-project-management position-relative top3"></span>
+                        <span class="d-none d-xl-inline-block form-select mr-2">Manage</span>
                         <span class="icomoon-new-24px-arrow-down-2 font10"></span>
                     </a>
                     <a href="#" class="outline1 px-2 btn btn-light course_status">
-                        <span class="align-sub s3 icomoon-reports-sm top3"></span>
-                        <span class="d-none d-xl-inline-block">Report</span>
+                        <span class="align-sub s3 icomoon-reports-sm position-relative top3"></span>
+                        <span class="d-none d-xl-inline-block mr-2">Report</span>
                         <span class="icomoon-new-24px-arrow-down-2 font10"></span>
                     </a>
                     <a href="#" class="outline1 px-2 btn btn-light course_status">
-                        <span class="align-sub s3 icomoon-add-license-enroll-sm top3"></span>
+                        <span class="align-sub s3 icomoon-add-license-enroll-sm position-relative top3"></span>
                         <span class="d-none d-xl-inline-block">Enroll</span>
                     </a>
 
@@ -110,7 +108,7 @@
 
     </div>
 
-   <!-- Second Headiing -->
+    <!-- Second Headiing -->
 
     <div class="col-12 d-flex align-items-center p-0 mt-3 mb-3 pl-3 pr-3">
 
@@ -122,7 +120,7 @@
             <div class="float-start mt-3 mt-md-0 scroll">
                 <div class="btn-group btn-light">
                     <a href="#" class="outline1 px-2 btn btn-light active">
-                        <span class="icomoon-roster-sm"></span>
+                        <span class="icomoon-roster-sm position-relative top3"></span>
                         <span class="d-none d-xl-inline-block">Roster</span>
                     </a>
                     <a href="#" class="outline1 px-2 btn btn-light course_status">
@@ -150,8 +148,8 @@
         </div>
 
         <div class="float-end flex-wrap">
-            Test Mode Only
-            <span class="switch_btn position-relative  r-md  outline1 float-right"></span>
+            <span class="mr-2">Test Mode Only</span>
+            <span class="switch_btn position-relative  r-md mt-1 outline1 float-right"></span>
 
         </div>
 
@@ -160,7 +158,7 @@
     </div>
 
 
-   <!--******************************************************* Content Box******************************************************************************** -->
+    <!--******************************************************* Content Box******************************************************************************** -->
 
 
 
@@ -169,173 +167,200 @@
             <thead>
                 <tr>
                     <th>
-                        <input type="checkbox" class="uc_checkbox height20 width20 mt-1" disabled>
-                        
-                        <select class="form-select width20 height20" aria-label="Default select">
-                          
+                        <input type="checkbox" class="uc_checkbox  height20 width20 position-relative top3">
+                        <select class="form-select width20 height20 mb-2px" aria-label="Default select">
+
                         </select>
                     </th>
-                    <th class="header headerSortDown">
-                        Student Name
-                        <div class="font10">Tag/Status</div>
+                    <th class="header font-weight-normal ">
+                        <div>Student Name</div>
+                        <span class="font12 headerSortDown">Tag/Status</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Course Name
-                        <div class="font10">CRN/Course Status</div>
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Course Name</div>
+                        <span class="font12">CRN/Course Status</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Instructor
-                        <div class="font10">Section</div>
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Instructor</div>
+                        <span class="font12">Section</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Readiness
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Readiness</div>
                     </th>
-                    <th class="header headerSortDown">
-                        Start
-                        <div class="font10">Time Passed</div>
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Start</div>
+                        <span class="font12">Time Passed</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Target
-                        <div class="font10">Time Needed</div>
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Target</div>
+                        <span class="font12">Time Needed</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Estimated
-                        <div class="font10">Time Required</div>
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Estimated</div>
+                        <span class="font12">Time Required</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Last Login
-                        <div class="font10">Time Passed</div>
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Last Login</div>
+                        <span class="font12">Time Passed</span>
                     </th>
-                    <th class="header headerSortDown">
-                        Actions
+                    <th class="header font-weight-normal headerSortDown">
+                        <div>Actions</div>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <!-- *********************************************First Row************************************************* -->
 
-                <tr>
-        
+                <tr class="bg-light" disabled>
+
                     <td>
-                        <input type="checkbox" class="uc_checkbox height20 width20 mt-1">
-                       
-                         <span>1</span>
+                        <div class="pt-lg">
+                            <input type="checkbox" class="uc_checkbox height20 width20 position-relative top3">
+                            <span>1</span>
+                        </div>
+
                     </td>
                     <td>
                         <div> <img src="images/profile1.png" alt="profile1.png"
-                                class="rounded-circle width30 height30"><span class="m-l-sm">Abhishek Kumar</span></div>
+                                class="rounded-circle width30 height30"><span class="m-l-sm">Abhishek Ku...</span></div>
                     </td>
                     <td>
-                        <div>App Training</div>
-                        <div class="font10">app-training</div>
+                        <div>APP-Training</div>
+                        <div class="font12">app-training</div>
                         <i class="icomoon-lesson-sm text-green"></i>
                         <i class="icomoon-testprep-sm text-green"></i>
 
                     </td>
                     <td>
-                        <div>Dhiro Verma</div>
-                        <span class="font10 blue-bg">new</span>
+                        <div class="pt-lg">
+                            <div>Dhiro Verma</div>
+                            <span class="font10 blue-bg pl-1 pr-1">new</span>
+                        </div>
+                    </td>
+                    <td class="d-flex flex-column align-items-center">
+                        <div class="pt-lg">
+                            <svg class="height20 width20" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="white" />
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
+                                    stroke-dasharray="calc(35 * 58 / 100) 31.4"
+                                    transform="rotate(-90) translate(-20)" />
+                            </svg>
+                            <div class="font15 text-green">58%</div>
+                        </div>
                     </td>
                     <td>
-                         <svg class="height20 width20" viewBox="0 0 20 20">
-                        <circle r="10" cx="10" cy="10" fill="white" />
-                        <circle r="5" cx="10" cy="10" fill="transparent"
-                                stroke="green"
-                                stroke-width="10"
-                                stroke-dasharray="calc(35 * 58 / 100) 31.4"
-                                transform="rotate(-90) translate(-20)" />
-                        </svg>
-                        <div class="font15 text-green">58%</div>
+                        <div class="pt-lg">
+                            <div>24-APR-19</div>
+                            <div class="font10">2.1 Years</div>
+                        </div>
                     </td>
                     <td>
-                        <div>24-APR-19</div>
-                        <div class="font10">2.1 Years</div>
+                        <div class="pt-lg">
+                            <div>25-JUN-19</div>
+                            <div class="font10">NA</div>
+                        </div>
                     </td>
                     <td>
-                        <div>25-JUN-19</div>
-                        <div class="font10">NA</div>
+                        <div class="pt-lg">
+                            <div>12-JAN-23</div>
+                            <div class="font10">1.6 Years</div>
+                        </div>
                     </td>
                     <td>
-                        <div>12-JAN-23</div>
-                        <div class="font10">1.6 Years</div>
+                        <div class="pt-lg">
+                            <div class="text-red">21-FEB-19</div>
+                            <div class="font10">2.3 Years ago</div>
+                        </div>
                     </td>
                     <td>
-                        <div class="text-red">21-FEB-19</div>
-                        <div class="font10">2.3 Years ago</div>
-                    </td>
-                    <td>
-                     
-                            <button class="btn b-blue-border">
+                        <div class="pt-lg">
+                            <button class="btn border border-3 rounded-1 border-primary">
                                 <span class="icomoon-new-24px-gear-1 m-sm"></span>
                                 <span class="icomoon-new-24px-arrow-down-2 font10"></span>
                             </button>
-                         
+                        </div>
+
                     </td>
-                  
+
                 </tr>
 
                 <!-- **********************************Second Row************************************************************** -->
 
                 <tr>
-                    
+
                     <td>
-                         <input type="checkbox" class="uc_checkbox height20 width20 mt-1">
-                     
-                         <span>2</span>
+                        <div class="pt-lg">
+                            <input type="checkbox" class="uc_checkbox height20 width20 position-relative top3">
+                            <span>2</span>
+                        </div>
+
                     </td>
                     <td>
-                        <div> <img src="images/profile2.png" alt="profile2.png"
-                                class="rounded-circle width30 height30"><span class="m-l-sm">Abhishek Pandey</span>
-                        </div>
+                        <span
+                            class="rounded-circle height30 width30 font-weight-bold bg-success d-inline-block align-items-center text-white ratio-1x1 pl pt-sm">
+                            AP </span>
+                        <span class="m-l-sm">Abhishek Pan...</span>
                     </td>
 
                     <td>
-                        <div>App Training</div>
-                        <div class="font10">app-training</div>
+                        <div>APP-Training</div>
+                        <div class="font12">app-training</div>
                         <i class="icomoon-lesson-sm text-green"></i>
                         <i class="icomoon-testprep-sm text-green"></i>
 
                     </td>
                     <td>
-                        <div>Swati Kesharwani</div>
-                        <span class="font10 blue-bg">Merged Sambhunath</span>
+                        <div class="pt-lg">
+                            <div>Swati Kesharwani</div>
+                            <span class="font10 blue-bg pl-1 pr-1">Merged Sambhunath Ap</span>
+                        </div>
+                    </td>
+                    <td class="d-flex flex-column align-items-center">
+                        <div class="pt-lg">
+                            <svg class="height20 width20" viewBox="0 0 20 20">
+                                <circle r="10" cx="10" cy="10" fill="white" />
+                                <circle r="5" cx="10" cy="10" fill="transparent" stroke="green" stroke-width="10"
+                                    stroke-dasharray="calc(35 * 64 / 100) 31.4"
+                                    transform="rotate(-90) translate(-20)" />
+                            </svg>
+                            <div class="font15 text-green">64%</div>
+                        </div>
                     </td>
                     <td>
-                        <svg class="height20 width20" viewBox="0 0 20 20">
-                        <circle r="10" cx="10" cy="10" fill="white" />
-                        <circle r="5" cx="10" cy="10" fill="transparent"
-                                stroke="green"
-                                stroke-width="10"
-                                stroke-dasharray="calc(35 * 64 / 100) 31.4"
-                                transform="rotate(-90) translate(-20)" />
-                        </svg>
-                        <div class="font15 text-green">64%</div>
+                        <div class="pt-lg">
+                            <div>18-FEB-17</div>
+                            <div class="font10">4.3 Years</div>
+                        </div>
                     </td>
                     <td>
-                        <div>18-FEB-17</div>
-                        <div class="font10">4.3 Years</div>
+                        <div class="pt-lg">
+                            <div>18-JUN-17</div>
+                            <div class="font10">NA</div>
+                        </div>
                     </td>
                     <td>
-                        <div>18-JUN-17</div>
-                        <div class="font10">NA</div>
+                        <div class="pt-lg">
+                            <div>03-DEC-23</div>
+                            <div class="font10">2.5 Years</div>
+                        </div>
                     </td>
                     <td>
-                        <div>03-DEC-23</div>
-                        <div class="font10">2.5 Years</div>
+                        <div class="pt-lg">
+                            <div class="text-red">14-MAY-17</div>
+                            <div class="font10">4.1 Years ago</div>
+                        </div>
                     </td>
                     <td>
-                        <div class="text-red">14-MAY-17</div>
-                        <div class="font10">4.1 Years ago</div>
-                    </td>
-                    <td>
-                     
-                            <button class="btn b-blue-border">
+                        <div class="pt-lg">
+                            <button class="btn border border-3 rounded-1 border-primary">
                                 <span class="icomoon-new-24px-gear-1 m-sm"></span>
                                 <span class="icomoon-new-24px-arrow-down-2 font10"></span>
                             </button>
-                         
+                        </div>
+
+
                     </td>
-                
+
 
                 </tr>
 
@@ -344,9 +369,6 @@
 
 
     </div>
-
-
-
 
 
 </body>
